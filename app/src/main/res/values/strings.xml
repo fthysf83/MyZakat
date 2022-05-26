@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MyZakat</string>
+    <string name="copyright">Copyright (c) 2022 MyZakat</string>
+    <string name="tvpage">Calculate your wear gold by entering the gold weight and its current
+        value per gram</string>
+    <string name="pageK">Calculate your kept gold by entering the gold weight and its current
+        value per gram</string>
+    <string name="intro">To begin, please choose your type of gold to calculate the total zakat to pay:</string>
+    <string name="menu_name">Menu Name</string>
+    <string name="about_text">Make it easier for Muslims to fulfill zakat obligation more FAST, EASY and SAFE anywhere and anytime.</string>
+    <string name="developer">MyZakat Developer:</string>
+    <string name="developer1">Huda Nabila Binti Ishak</string>
+    <string name="developerId1">2021166839</string>
+    <string name="developerEmail1">hudanabila1shak@gmail.com</string>
+    <string name="developer2">Nurul Fatihah Binti Mohamed Yusof</string>
+    <string name="developerId2">2021102319</string>
+    <string name="developerEmail2">fatihahyusoff83@gmail.com</string>
+    <string name="githublink">https://github.com/fthysf83/MyZakat</string>
+
+
+</resources>

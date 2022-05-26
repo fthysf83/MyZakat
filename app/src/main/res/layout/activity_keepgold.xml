@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A3EDC063"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPageK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="@string/pageK"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dip"
+            android:ems="10"
+            android:hint="Weight (g)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etCurrentValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Curent gold value per gram"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:backgroundTint="#E2F1AB43"
+            android:text="Calculate"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E2F1AB43"
+            android:text="Reset"
+            android:textAlignment="center"
+            android:textColor="#0C0C0C" />
+
+        <TextView
+            android:id="@+id/tvOutput1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvOutput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvOutput3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>
